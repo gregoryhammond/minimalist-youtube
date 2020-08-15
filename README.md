@@ -1,29 +1,10 @@
-# README #
+# Minimalist Youtube
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A minimalist version of YouTube that loads quickly and doesn't have the tracking that Youtube.com has.
 
-### What is this repository for? ###
+## Installation
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+Clone or download repo, and put into your folder of choice. Then open either in your browser or copy to your web server.
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## License
+[Unlicense](http://unlicense.org/)
