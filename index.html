@@ -1,0 +1,217 @@
+<!-- TODO: Consider making site as privacy-friendly as possible. -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minimalist YouTube</title>
+
+    <!-- Bulma 0.9.0 framework (https://bulma.io/). Hosting this is JsDelivr(https://www.jsdelivr.com/package/npm/bulma?path=css). -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css" integrity="sha256-oSsWW/ca1ll8OVu2t4EKkyb9lmH0Pkd8CXKXnYP4QvA=" crossorigin="anonymous">
+
+    <!-- Font Awesome 5.13.1 for icons for social sharing -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.1/css/all.css" integrity="sha256-Uwy0wptETcid1zpOCBL4A76Y00SKSO3Kiq/bxVoLl+s=" crossorigin="anonymous">
+
+    <!-- For Youtube videos, to ensure the page loads as quickly as possible. Uses https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dyyoutubelazyloadjs@0.2.6/dist/css/dyYouTubeLazyLoad.min.css" integrity="sha256-hZLYmNnaO4GZARrqt5frKBhMpu0jIdb51Y14aPhI9iU=" crossorigin="anonymous">
+
+    <!-- Stylesheets created myself -->
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/social-share.css">
+
+  </head>
+  
+  <body>
+  <section class="section">
+
+    <div class="container">
+      <h1 class="title">
+        Minimalist YouTube
+      </h1>
+      <h3 class="subtitle">
+          This is just a demo
+      </h3>
+    </div>
+  </section>
+
+  <section class="section">
+
+    <div class="container">
+        <!-- Primary / highlight video -->
+        <div class="dy-yt-lazyload-container" data-videoid="gmIwxqdwgrI"></div>
+    </div> <!-- end container -->
+
+  </section> <!-- end section -->
+
+  <section class="section">
+
+    <div class="container"> 
+    <h4>Music</h4>
+        <br>
+
+    <div class="columns">
+
+        <!-- These videos don't play if you are editing this on your own computer (either viewing file:// or an ip address in your browser), you will need to have them on a website of some sort to propertly play these videos. See https://stackoverflow.com/a/56419165 for details. -->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="oIIxlgcuQRU"></div>
+        </div> <!-- end column-->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="mGgMZpGYiy8"></div>
+        </div> <!-- end column -->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="s7KsujKPKkY"></div>
+        </div> <!-- end column -->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="YxbUpjQoZgw"></div>
+        </div> <!-- end column-->
+
+    </div> <!-- end columns -->
+
+    </div> <!-- end container -->
+
+  </section> <!-- end section -->
+
+  <section class="section">
+
+    <div class="container">
+        <i>Ads</i>
+        <div class="columns">
+
+            <div class="column">
+                <!-- Microsoft US affiliate link. -->
+                <a href="https://click.linksynergy.com/fs-bin/click?id=I80n0OqO6sI&offerid=780591.10002287&subid=0&type=4" rel="nofollow"><IMG border="0"   alt="Microsoft ad for Microsoft 365" src="img/ads/microsoft-365-1.jpg"></a>
+            </div> <!-- end column -->
+
+            <div class="column">
+                <!-- Microsoft Canada affiliate link. -->
+                <a href="https://click.linksynergy.com/fs-bin/click?id=I80n0OqO6sI&offerid=780557.10002283&subid=0&type=4" rel="nofollow"><IMG border="0"   alt="Microsoft Canada ad for Microsoft Onedrive" src="img/ads/microsoft-365-2.png"></a>
+            </div> <!-- end column -->
+
+        </div> <!-- end columns -->
+
+    </div>
+  </section> <!-- end section -->
+
+  <section class="section">
+      <i>Creators on the rise</i>
+
+      <div class="columns">
+
+    <div class="column"> 
+      <div class="card">
+        <a href="https://www.youtube.com/channel/UCm325cMiw9B15xl22_gr6Dw/videos">
+        <img src="img/beau-miles.jpg" alt="Beau Miles Youtube picture" style="height:240px">
+        <div class="container">
+          <h4><b>Beau Miles</b></h4>
+          <p>An award winning filmaker, poly-jobist, speaker, and writer.</p>
+        </a> <!-- end link -->
+          <p>Most popular videos: <a href="https://www.youtube.com/watch?v=EvT5XS7j-Dc">A Mile an Hour</a>, <a href="https://www.youtube.com/watch?v=RYsTlfhDSDY">The Human Bean (40 days on a tin-beat diet)</a> </p>
+        </div> <!-- end container -->
+        
+      </div> <!-- end card -->
+    </div> <!-- end column -->
+
+    <div class="column">
+        <div class="card">
+            <a href="https://www.youtube.com/user/BrightSunGaming/videos">
+                <img src="img/bright-sun-films.png" alt="Bright Sun Films Youtube picture" style="height:240px">
+                <div class="container">
+                    <h4><b>Bright Sun Films</b></h4>
+                    <p>Shows like Abandoned, Cancelled, Bankrupt and much more.</p> 
+                </a> <!-- end link -->
+                <p>Most popular videos: <a href="https://www.youtube.com/watch?v=EgTOq-2acT0">The Story Of The Costa Concordia</a>, <a href="https://www.youtube.com/watch?v=ItPkMIumy_o">Abandoned - Nickelodeon Studios</a></p>
+                </div> <!-- end container -->
+        </div> <!-- end card -->
+    </div> <!-- end column -->
+
+    </div> <!-- end columns -->
+
+  </section> <!-- end section -->
+
+  <section class="section">
+
+    <div class="container">
+      <i>Recommended</i>
+
+      <div class="columns">
+
+        <!-- These videos don't play if you are editing this on your own computer (either viewing file:// or an ip address in your browser), you will need to have them on a website of some sort to propertly play these videos. See https://stackoverflow.com/a/56419165 for details. -->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="nQ4R94HF3GA"></div>
+        </div> <!-- end column-->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="y3qfeoqErtY"></div>
+        </div> <!-- end column -->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="leFuF-zoVzA"></div>
+        </div> <!-- end column -->
+
+        <div class="column">
+          <div class="dy-yt-lazyload-container" data-videoid="CkysCJBdGtw"></div>
+        </div> <!-- end column-->
+
+    </div> <!-- end columns -->
+    </div> <!-- end container -->
+
+  </section> <!-- end section-->
+
+  <section class="section">
+
+    <div class="container">
+        <i>Ads</i>
+        <div class="columns">
+
+            <div class="column">
+                <!-- WPEngine affiliate link. -->
+                <a target="_blank" href="https://shareasale.com/r.cfm?b=1144513&amp;u=1667705&amp;m=41388&amp;urllink=&amp;afftrack="><img src="img/ads/wpengine-1.png" border="0" /></a>
+            </div> <!-- end column -->
+
+            <div class="column">
+                <!-- ShareASale affiliate link. -->
+                <a target="_blank" href="https://shareasale.com/r.cfm?b=922039&amp;u=1667705&amp;m=47&amp;urllink=&amp;afftrack="><img src="img/ads/ShareASale-1.png" border="0" /></a>
+            </div> <!-- end column -->
+
+        </div> <!-- end columns -->
+
+    </div>
+  </section> <!-- end section -->
+  
+  <!-- TODO: figure out what to put here, that is different and uses some coding skills.  -->
+
+  <section class="section">
+
+    <div class="container">
+
+        <!-- social sharing here, have at the end of the page - basis from https://codepen.io/supah/pen/MKNwZV
+        TODO: Do the same but without the hover, just show the icons -->
+        <div class="share-buttons">
+            <nav>
+              <a href="https://twitter.com/home?status=https://example.com "><i class="fab fa-twitter fa-3x"></i></a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://example.com"><i class="fab fa-facebook fa-3x"></i></a>
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://example.com&title=&summary=&source="><i class="fab fa-linkedin-in fa-3x"></i></a>
+              <a href="https://www.addtoany.com/add_to/mastodon?linkurl=https%3A%2F%2Fwww.example.com%2Fpage.html&linkname=Example%20Page"><i class="fab fa-mastodon fa-3x"></i></a>
+            </nav>
+          </div>
+
+    </div> <!-- end container -->
+
+  </section> <!-- end section -->
+
+  </body>
+
+  <!-- For Youtube videos, to ensure the page loads as quickly as possible. Uses https://github.com/yusufshakeel/dyYouTubeLazyLoadJS/  -->
+  <script src="https://cdn.jsdelivr.net/npm/dyyoutubelazyloadjs@0.2.6/dist/js/dyYouTubeLazyLoad.min.js" integrity="sha256-1UkGunnQ0fd7avjq02TaytCky+LmNypJXCtgb4hBgBE=" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript" src="js/social-share.js"></script>
+
+</html>

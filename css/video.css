@@ -1,0 +1,48 @@
+/* Thanks to https://embedresponsively.com/ for the basis of this. */
+/* Slighty modified to fit what I had in mind. */
+
+/* Get video thumbnail to fit inside container */
+.dy-yt-lazyload-container,
+.dy-yt-lazyload-thumbnail
+{
+    top: 0% !important;
+}
+
+/* This is the first video that you see when on the website. */
+.embed-container-55-bottom
+{ 
+    position: relative; 
+    padding-bottom: 55%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+}
+
+.embed-container-55-bottom iframe, .embed-container-55-bottom object, .embed-container-55-bottom embed 
+{ 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+/* These are all the other videos you see on the page */
+
+.embed-container-56-bottom
+{ 
+    position: relative; 
+    padding-bottom: 56%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+} 
+
+.embed-container-56-bottom iframe, .embed-container-56-bottom object, .embed-container-56-bottom embed 
+{ 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}

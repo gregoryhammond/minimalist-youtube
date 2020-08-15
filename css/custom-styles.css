@@ -1,0 +1,6 @@
+/*  Customizing some of the styles that the framework has by default. */
+
+.section
+{
+    padding: 1rem 0.25rem !important;
+}

@@ -1,0 +1,47 @@
+/* Based from https://codepen.io/RobVermeer/pen/aNYQMx which is under MIT license(https://blog.codepen.io/documentation/licensing/). */
+
+.fab
+{
+    padding-right: 6%;
+}
+
+/* 
+.share {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -40px;
+    border-radius: 80px;
+}
+
+.share span {
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+.share nav {
+    font-size: 0;
+}
+.share a {
+    line-height: 80px;
+    width: 19%;
+    text-align: center;
+    display: inline-block;
+    background-color: #fff;
+    color: #fff;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    margin: 0 -20px;
+}
+*/
